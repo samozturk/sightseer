@@ -1,0 +1,52 @@
+```json\n{\n    
+"city": "Istanbul",\n    
+"user_taste": "You seem to prefer cities with a rich history and cultural heritage, often opting for destinations that are a bit off the beaten path. You tend to enjoy exploring unique neighborhoods and discovering hidden gems, rather than visiting popular tourist spots.",\n    
+"recommendations": [\n        {\n            
+    "name": "Çiya Sofrası",\n            
+    "description": "A restaurant serving traditional Turkish cuisine with a focus on regional specialties",\n            
+    "address": "Güneşli Bahçe Sokak, No: 43, Kadıköy",\n            
+    "category": "Restaurant"\n        },\n        {\n            
+    
+    "name": "Karaköy Güllüoğlu",\n            
+    "description": "A historic bakery and cafe serving traditional Turkish pastries and coffee",\n            
+    "address": "Karaköy, Rıhtım Caddesi, No: 3",\n            
+    "category": "Cafe"\n        },\n        {\n            
+    
+    "name": "SALT Galata",\n            
+    "description": "A cultural institution hosting exhibitions, concerts, and other events in a beautifully restored historic building",\n            
+    "address": "Banks Street, No: 11, Galata",\n            "
+    category": "Museum"\n        },\n        {\n            
+    
+    "name": "İstiklal Caddesi",\n            
+    "description": "A vibrant and historic shopping street lined with boutiques, cafes, and street performers",\n            
+    "address": "İstiklal Caddesi, Beyoğlu",\n            
+    "category": "Shopping Street"\n        },\n        {\n            
+    
+    "name": "Pera Museum",\n            
+    "description": "A museum showcasing the history of transportation and communication in Turkey, with a beautiful courtyard and cafe",\n            
+    "address": "Mesrutiyet Caddesi, No: 65, Beyoğlu",\n            
+    "category": "Museum"\n        },\n        {\n            
+    
+    "name": "Bosphorus Cruise",\n            
+    "description": "A scenic boat tour along the Bosphorus Strait, offering stunning views of the city\'s skyline and landmarks",\n            
+    "address": "Departs from various piers along the Bosphorus",\n            
+    "category": "Outdoor Activity"\n        },\n        {\n            
+    
+    "name": "Grand Bazaar",\n            
+    "description": "One of the oldest and largest covered markets in the world, offering a wide range of goods and souvenirs",\n            
+    "address": "Kalpakçılar Caddesi, No: 22, Fatih",\n            
+    "category": "Market"\n        },\n        {\n            
+    
+    "name": "Mihrimah Sultan Mosque",\n            
+    "description": "A beautiful and historic mosque complex with stunning architecture and tranquil gardens",\n            
+    "address": "Fevzi Paşa Caddesi, No: 12, Edirnekapı",\n            
+    "category": "Landmark"\n        },\n        {\n            
+
+    "name": "Yeldeğirmeni",\n            
+    "description": "A charming and historic neighborhood with narrow streets, quaint shops, and traditional cafes",\n            
+    "address": "Yeldeğirmeni, Kadıköy",\n            
+    "category": "Neighborhood"\n        },\n        {\n            
+    
+    "name": "Kadıköy Market",\n            
+    description": "A bustling and colorful market offering a wide range of fresh produce, flowers, and souvenirs",\n            
+    "address": "Özgür Sokak, No: 12, Kadıköy",\n            "category": "Market"\n        }\n    ]\n}\n```
