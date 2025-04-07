@@ -9,8 +9,6 @@ Sightseer is a project designed to provide users with a seamless experience for 
 - **Interactive Maps**: Explore destinations with detailed maps and points of interest.
 - **User Profiles**: Save favorite locations and track your travel history.
 
-
-
 ## Usage
 
 1. Open your browser and navigate to `http://localhost:3000`.
@@ -42,4 +40,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or feedback, please contact [your-email@example.com].
+For questions or feedback, please contact [ssamozturk@gmail.com].
