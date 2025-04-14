@@ -1,0 +1,19 @@
+[project]
+name = "ss"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "langchain-community>=0.3.18",
+    "langchain-huggingface>=0.1.2",
+    "loguru>=0.7.3",
+    "pydantic>=2.10.6",
+    "uvicorn>=0.34.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
