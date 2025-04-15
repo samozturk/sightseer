@@ -18,6 +18,11 @@ def get_recommendations(preferences: list[dict[str, str]], city: str) -> Recomme
     response = chain.invoke(input_data)
     logger.debug(f"Response from chain: {response}")
 
+    # Add check for None response
+    if response is None:
+        logger.error("Received None response from the LLM chain.")
+        raise ValueError("LLM chain returned None, cannot proceed with parsing.")
+
     parser = PydanticOutputParser(pydantic_object=Response)
     logger.debug(f"Parser created: {parser.get_format_instructions()}")
     my_response = parser.parse(response)
