@@ -1,6 +1,7 @@
+from typing import List # Added import
 from langchain.output_parsers import PydanticOutputParser
 
-from spots.models import Recommendations, Response
+from spots.models import Recommendations, Response, CityPairResponse # Added CityPairResponse
 from spots.prompt_utils import chain, format_preferences
 from loguru import logger
 
@@ -10,9 +11,9 @@ They preffered Belgrade over Zagreb. They preffered Barcelona over all other cit
 city = "Istanbul"
 
 
-def get_recommendations(preferences: list[dict[str, str]], city: str) -> Recommendations:
-    preferences = format_preferences(preferences)
-    input_data = {"preferences": preferences, "city": city}
+def get_recommendations(preferences: List[CityPairResponse], city: str) -> Response: # Updated signature
+    formatted_preferences_str = format_preferences(preferences) # Use new variable
+    input_data = {"preferences": formatted_preferences_str, "city": city} # Use new variable
 
     # Run the chain
     response = chain.invoke(input_data)
@@ -26,4 +27,4 @@ def get_recommendations(preferences: list[dict[str, str]], city: str) -> Recomme
     parser = PydanticOutputParser(pydantic_object=Response)
     logger.debug(f"Parser created: {parser.get_format_instructions()}")
     my_response = parser.parse(response)
-    return my_response.dict()
+    return my_response # Return the Response object directly
